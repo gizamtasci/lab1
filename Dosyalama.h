@@ -7,15 +7,13 @@ class DosyaIslem
 {
 public:
 	vector<int> dizi;
-	/**
-* \Dosyadan okuma islemi yapar
-* 
-*/
+
+	
+//dosyadan okuma islemi yapar
 	void Okuma();
-	/**
-* \vector yapısındaki diziyi dondurur
-* \return dizi
-*/
+	
+//vector yapısındaki diziyi dondurur
+
 	vector<int> DiziDondur();
 
 private:
